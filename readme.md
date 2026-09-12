@@ -49,6 +49,7 @@ The target architecture was to progressively remove implicit trust:
                  Observability layer
               Prometheus / Loki / Grafana
 ```
+[🖼️ View Architecture Diagram (PNG)](screenshots\architecture.png)
 
 The final identity architecture was planned to extend this further with workload identity and external secret management, but those phases were not completed because the OCI trial expired.
 
@@ -878,3 +879,5 @@ They define the next iteration of the architecture.
 
 ![cert](screenshots/web.ui-cert-valid.png)
 ![web](screenshots/web.ui-secured.png)
+
+Note:: This repo is for the underlying infrastructure, the actual workload is on the repo - https://github.com/Alpaccino04/Zero-Trust-OKE-Project-Workload-.git
