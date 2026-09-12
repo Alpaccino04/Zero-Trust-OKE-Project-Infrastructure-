@@ -49,7 +49,7 @@ The target architecture was to progressively remove implicit trust:
                  Observability layer
               Prometheus / Loki / Grafana
 ```
-[🖼️ View Architecture Diagram (PNG)](screenshots\architecture.png)
+![🖼️ View Architecture Diagram (PNG)](screenshots\architecture.png)
 
 The final identity architecture was planned to extend this further with workload identity and external secret management, but those phases were not completed because the OCI trial expired.
 
